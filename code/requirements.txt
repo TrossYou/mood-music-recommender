@@ -1,0 +1,27 @@
+# --- 핵심 라브리 ---
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0
+openai-clip  # optional, huggingface transformers에서도 가능
+
+# --- 이미지 처리 ---
+opencv-python
+Pillow
+
+# --- 얼굴 인식용 MTCNN ---
+facenet-pytorch
+
+# --- 전신 인식용 YOLOv8 ---
+ultralytics
+
+# --- 로깅 및 시각화 ---
+matplotlib
+pandas
+tqdm
+
+# --- 기타 유틸 ---
+scikit-learn
+gdown
+spotify
+instaloader
+python-dotenv
