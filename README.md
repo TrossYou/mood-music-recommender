@@ -1,6 +1,14 @@
-# Mood-based Music Recommendation via CLIP Analysis
+<div align="center">
 
-> 숭실대학교 컴퓨터비전응용(CVA) 수업 프로젝트 | 2025.06 | 유승주 (TrossYou)
+# 이미지의 인물과 배경 분위기를 따로 읽어 음악을 추천하는 시스템
+
+### mood-music-recommender
+
+2025.06 · 개인 · 숭실대 컴퓨터비전응용 수업 · CLIP · YOLOv8
+
+</div>
+
+---
 
 본 프로젝트는 이미지를 분석하여 **인물**과 **배경**의 분위기(mood)를 분리 추출한 뒤, 이를 기반으로 적절한 음악을 추천하는 시스템입니다.  
 OpenAI의 CLIP 모델을 활용하여 Instagram 게시글의 이미지의 분위기를 예측하고, Last.fm의 태그 기반 데이터를 통해 음악과 분위기를 매핑합니다.
